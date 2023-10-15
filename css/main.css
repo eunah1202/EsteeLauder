@@ -49,6 +49,7 @@ a{text-decoration:none;color:#333;}
 .gnb_bottom>ul{display:flex;flex-flow:row nowrap;justify-content:center;}
 
 .gnb_bottom>ul>li>a{position:relative;display:block;font-size:16px;padding:5px 20px;line-height:30px;white-space:nowrap;color:#022239;text-align:center;transition:all 0.5s linear 0;}
+.gnb_bottom>ul>li:first-of-type>a{color:#c11c1c;}
 .gnb_bottom>ul>li:hover>a{font-weight:bold;}
 .gnb_bottom>ul>li>a::after{position:absolute;content:'';display:block;width:0;height:0;opacity:0;left:50%;bottom:0;transform:translateX(-50%);background:#022239;transition: width 0.4s ease-in-out 0s;}
 .gnb_bottom>ul>li:hover>a::after{opacity:1;height:3px;width:100%;}
