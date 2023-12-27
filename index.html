@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estée Lauder</title>
+<link rel="shortcut icon" href="./img/favicon.ico">
+<link rel="stylesheet" href="./css/reset.css"/>
+<link rel="stylesheet" href="./css/main.css"/>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="./js/jquery/jquery-1.12.3.js"></script>
+<script defer src="./js/script.js"></script>
+</head>
+<body>
+<!-- skipNavi -->
+<div id="skipNavi"><a href="#container">본문 바로가기</a></div>
+<!-- //skipNavi -->
+<!-- header -->
+<header id="header">
+  <div class="header_wrap">
+    <div class="ad_banner">
+      <div class="slide_arrow_l">
+        <a href="#">이전슬라이드 보기</a>
+      </div>
+      <div class="ad_txt">
+        <ul>
+          <li><a href="#">[윤아 pick]#천사랑메이크업 제품들을 공식몰에서 만나보세요</a></li>
+          <li><a href="#">[에스티 로더의 첫 클린 뷰티] NEW 뉴트리셔스</a></li>
+          <li><a href="#">[7월 스페셜 혜택] 단품 5만원 이상 구매 시 3종 디럭스 추가 증정!</a></li>
+          <li><a href="#">전 주문 무료 배송 & 선물 포장</a></li>    
+        </ul>
+      </div>
+      <div class="slide_arrow_r">
+        <a href="#">
+          <img src="./img/btn_arrow_ico_w.png" alt="다음 슬라이드 이동">다음 슬라이드 보기
+        </a>
+      </div>
+      <div class="ad_close"></div>
+    </div>
+    <div class="gnb_top">
+      <h1 class="logo"><a href="index.html"><img src="./img/logo_estee.svg" alt="에스티로더 로고"></a></h1>
+      <h2 class="blind">로그인, 찜하기, 검색, 장바구니</h2>
+      <div class="topMenu">
+        <ul>
+          <li>
+            <a href="#" target="_blank" title="로그인 바로가기">
+              <iconify-icon icon="mingcute:user-2-line" width="24"></iconify-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" title="찜하기 바로가기">
+              <iconify-icon icon="majesticons:heart-line" width="24"></iconify-icon>
+            </a>  
+          </li>
+          <li>
+            <a class="btn_srch_open"href="#" target="_blank" title="검색창으로 바로가기">
+              <iconify-icon icon="ic:round-search" width="24"></iconify-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" title="장바구니 바로가기">
+              <iconify-icon icon="majesticons:shopping-cart-line" width="24"></iconify-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="srch_wrap">
+        <div class="srch_inner">
+          <form>
+            <fieldset>
+              <legend class="blind"> 통합검색</legend>
+              <label for="srch" class="blind">검색어를 입력하세요</label>
+              <input type="search" id="srch" placeholder="검색어를 입력하세요" />
+              <button type="button">검색버튼</button>
+            </fieldset>
+            <span><a href="#">인기 검색어</a></span>
+            <ul>
+              <li><a href="#">갈색병 리페어</a></li>
+              <li><a href="#">더블웨어</a></li>
+              <li><a href="#">모던뮤즈</a></li>
+              <li><a href="#">모이스처라이저</a></li>
+              <li><a href="#">세럼</a></li>
+            </ul>
+          </form>
+        </div>
+        <a href="#" class="btn_srch_close">통합검색 닫기</a>  
+      </div>           
+    </div>
+    <div class="gnb_bottom">
+      <h2 class="blind">주메뉴</h2>
+      <ul>
+        <li><a href="#"><span>베스트 셀러</span></a>
+          <div>
+            <ul>
+              <li><a href="#">모든 베스트 셀러 제품</a></li>
+              <li><a href="#">카테고리별</a>
+                <ul>
+                  <li><a href="#">스킨케어 베스트셀러</a></li>
+                  <li><a href="#">메이크업 베스트셀러</a></li>
+                  <li><a href="#">향수 베스트셀러</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#"><span>7월 스페셜 혜택</span></a>
+          <div>
+            <ul>
+              <li><a href="#">카테고리별 선물하기</a>
+                <ul>
+                  <li><a href="#">기프트 베스트셀러</a></li>
+                  <li><a href="#">스킨케어 세트 &amp; 선물</a></li>
+                  <li><a href="#">메이크업 세트 &amp; 선물</a></li>
+                  <li><a href="#">향수 세트 &amp; 선물</a></li>
+                  <li><a href="#">에어린 세트 &amp; 선물</a></li>
+                </ul>
+              </li>
+              <li><a href="#">금액별 선물하기</a>
+                <ul>
+                  <li><a href="#">5만원이하 선물</a></li>
+                  <li><a href="#">5~10만원이하 선물</a></li>
+                  <li><a href="#">10만원이상 선물</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="친구초대하기 창 바로가기">
+                <img src="./img/gnb_button01.jpg" alt="친구초대하기">
+                <strong>친구초대하기</strong>
+                <p>친구 초대하고 2만원 쿠폰 받으세요!</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#"><span>신제품</span></a></li>
+        <li><a href="#">공식몰 서비스</a>
+          <div>
+            <ul>
+              <li><a href="#">공식몰서비스</a>
+                <ul>
+                  <li><a href="#">버츄얼 상담서비스</a></li>
+                  <li><a href="#">라이브 방송</a></li>
+                  <li><a href="#">럭셔리 프래그런스 파인더</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="버츄얼상담서비스 창 바로가기">
+                <img src="./img/gnb_button02.jpg" alt="버츄얼상담서비스">
+                <strong>버츄얼 상담서비스</strong>
+                <p>에스티로더에서 제공하는 전문적인 서비스를 통해 고객님만의 진정한 아름다움을 찾으세요</p>
+              </a>
+            </div>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="라이브방송 바로가기">
+                <img src="./img/gnb_button03.jpg" alt="라이브방송">
+                <strong>라이브 방송</strong>
+                <p>단독혜택이 가득한 라이브 방송에 참여해보세요!</p>
+              </a>
+            </div>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="럭셔리 프래그런스 파인더 자세히보기">
+                <img src="./img/gnb_button04.jpg" alt="럭셔리 프래그런스 파인더">
+                <strong>럭셔리 프래그런스 파인더</strong>
+                <p>에스티로더의 새로운 무드 부스팅 향수. 당신의 무드를 변화시킬 나만의 향을 찾아보세요</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">스킨케어</a>
+          <div>
+            <ul>
+              <li><a href="#">모든 스킨케어 제품보기</a></li>
+              <li><a href="#">카테고리별</a>
+                <ul>
+                  <li><a href="#">클렌저/토너</a></li>
+                  <li><a href="#">리페어 세럼/에센스</a></li>
+                  <li><a href="#">로션/크림</a></li>
+                  <li><a href="#">아이케어</a></li>
+                  <li><a href="#">스페셜 케어/마스크</a></li>
+                  <li><a href="#">썬 케어</a></li>
+                </ul>
+              </li>
+              <li><a href="#">피부고민별</a>
+                <ul>
+                  <li><a href="#">리페어</a></li>
+                  <li><a href="#">브라이트닝</a></li>
+                  <li><a href="#">주름완화</a></li>
+                  <li><a href="#">탄력/리프팅</a></li>
+                  <li><a href="#">피부결/모공</a></li>
+                  <li><a href="#">다크서클</a></li>
+                </ul>
+              </li>
+              <li><a href="#">컬렉션별</a>
+                <ul>
+                  <li><a href="#">갈색병 리페어</a></li>
+                  <li><a href="#">마이크로 에센스</a></li>
+                  <li><a href="#">수프림</a></li>
+                  <li><a href="#">퍼펙셔니스트</a></li>
+                  <li><a href="#">뉴트리셔스</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="10년 연속 NO.1 세럼 갈색병 구매하기창">
+                <img src="./img/gnb_button05.jpg" alt="10년 연속 NO.1 세럼 갈색병">
+                <strong class="bg_none">10년 연속 NO.1 세럼 갈색병</strong>
+                <p class="bg_arrow">구매하기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">메이크업</a>
+          <div>
+            <ul>
+              <li><a href="#">모든 메이크업 제품보기</a></li>
+              <li><a href="#">립</a>
+                <ul>
+                  <li><a href="#">립스틱</a></li>
+                  <li><a href="#">리퀴드 립</a></li>
+                  <li><a href="#">립 글로스</a></li>
+                  <li><a href="#">립 케어</a></li>
+                </ul>
+              </li>
+              <li><a href="#">아이</a>
+                <ul>
+                  <li><a href="#">아이섀도우</a></li>
+                  <li><a href="#">아이브로우</a></li>
+                  <li><a href="#">아이라이너</a></li>
+                  <li><a href="#">마스카라</a></li>
+                </ul>  
+              </li>
+              <li><a href="#">페이스</a>
+                <ul>
+                  <li><a href="#">파운데이션</a></li>
+                  <li><a href="#">컨실러</a></li>
+                  <li><a href="#">파우더</a></li>
+                  <li><a href="#">프라이머</a></li>
+                  <li><a href="#">블러쉬</a></li>
+                </ul>
+              </li>
+              <li><a href="#">브러쉬 &amp; 기타</a>
+                <ul>
+                  <li><a href="#">브러쉬</a></li>
+                  <li><a href="#">악세사리</a></li>
+                </ul>
+              </li>
+              <li><a href="#">컬렉션보기</a>
+                <ul>
+                  <li><a href="#">퓨어컬러</a></li>
+                  <li><a href="#">더블웨어</a></li>
+                  <li><a href="#">퓨처리스트</a></li>
+                  <li><a href="#">퓨어 컬러 엔비</a></li>
+                  <li><a href="#">엔비 립 케어</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="9년 연속 NO.1 더블웨어 파운데이션 구매하기창">
+                <img src="./img/gnb_button06.jpg" alt="9년 연속 NO.1 더블웨어 파운데이션">
+                <strong class="bg_none">9년 연속 NO.1 더블웨어 파운데이션</strong>
+                <p class="bg_arrow">구매하기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">리-뉴트리브</a>
+          <div>
+            <ul>
+              <li><a href="#">모든 리-뉴트리브 제품보기</a></li>
+              <li><a href="#">라인별</a>
+                <ul>
+                  <li><a href="#">리-크리에이션</a></li>
+                  <li><a href="#">다이아몬드</a></li>
+                  <li><a href="#">얼티미트 리프트 에이지 코렉팅</a></li>
+                  <li><a href="#">얼티미트 리프트 리제너레이팅 유쓰</a></li>
+                  <li><a href="#">클래식 리-뉴트리브</a></li>
+                </ul>
+              </li>
+              <li><a href="#">스킨케어</a>
+                <ul>
+                  <li><a href="#">클렌저/토너</a></li>
+                  <li><a href="#">에센스/세럼</a></li>
+                  <li><a href="#">에멀전/로션</a></li>
+                  <li><a href="#">크림</a></li>
+                  <li><a href="#">아이 케어</a></li>
+                  <li><a href="#">스페셜 케어</a></li>
+                </ul>
+              </li>
+              <li><a href="#">메이크업</a>
+                <ul>
+                  <li><a href="#">파운데이션</a></li>
+                  <li><a href="#">파우더</a></li>
+                  <li><a href="#">쿠션</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="NEW 다이아몬드 탄력 리프팅 크림 자세히보기">
+                <img src="./img/gnb_button07.jpg" alt=""NEW 다이아몬드 탄력 리프팅 크림">
+                <strong class="bg_none">NEW 다이아몬드 탄력 리프팅 크림</strong>
+                <p class="bg_arrow">구매하기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">향수</a>
+          <div>
+            <ul>
+              <li><a href="#">모든 향수 제품보기</a></li>
+              <li><a href="#">컬렉션 보기</a>
+                <ul>
+                  <li><a href="#">럭셔리 프래그런스</a></li>
+                  <li><a href="#">뷰티풀 매그놀리아</a></li>
+                  <li><a href="#">모던 뮤즈</a></li>
+                  <li><a href="#">플레져</a></li>
+                  <li><a href="#">뷰티풀</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="플로럴계열 향수 자세히보기">
+                <img src="./img/gnb_button08.jpg" alt="플로럴계열 향수">
+                <strong class="bg_none">사랑의 순간들, 그 순간들에 대한 <br />서사를 담은 그린 플로럴계열의 향수</strong>
+                <p class="bg_arrow">구매하기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">에어린</a>
+          <div>
+            <ul>
+              <li><a href="#">모든 에어린 제품보기</a></li>
+              <li><a href="#">에어린 뷰티</a>
+                <ul>
+                  <li><a href="#">향수 컬렉션</a></li>
+                  <li><a href="#">에어린뷰티</a></li>
+                  <li><a href="#">에어린의 세계</a></li>
+                  <li><a href="#">에어린 소개</a></li>
+                </ul>
+              </li>
+              <li><a href="#">프래그런스 컬렉션</a>
+                <ul>
+                  <li><a href="#">앰버 머스크</a></li>
+                  <li><a href="#">라일락 패스</a></li>
+                  <li><a href="#">이캇 쟈스민</a></li>
+                  <li><a href="#">매디터래니언 허니써클</a></li>
+                  <li><a href="#">와일드 제라늄</a></li>
+                  <li><a href="#">시더 바이올렛</a></li>
+                  <li><a href="#">에어린 선물세트</a></li>
+                </ul>
+              </li>
+              <li><a href="#">프리미엄 컬렉션</a>
+                <ul>
+                  <li><a href="#">로즈 드 그라스</a></li>
+                  <li><a href="#">로즈 드 그라스 뿌르 퓌</a></li>
+                  <li><a href="#">암브레트 드 누와르</a></li>
+                  <li><a href="#">리모네 디 시칠리아</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="허니써클 클레멘티나 자세히보기">
+                <img src="./img/gnb_button09.jpg" alt="허니써클 클레멘티나">
+                <strong class="bg_none">NEW 에메디터래니언 <br /> 허니써클 클레멘티나</strong>
+                <p class="bg_arrow">구매하기</p>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">브랜드스토리</a>
+          <div>
+            <ul>
+              <li><a href="#">발견하다</a>
+                <ul>
+                  <li><a href="#">에스티로더 브랜드 스토리</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">트렌드 리포트</a>
+                <a href="#">목표 &amp; 가치</a>
+                <a href="#">어머징 리더스 펀드</a>
+              </li>
+              <li>
+                <a href="#">원료 도감</a>
+                <a href="#">라이브 방송</a>
+                <a href="#">커뮤니티</a>
+              </li>
+            </ul>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="트랜드 리포트 자세히보기">
+                <img src="./img/gnb_button10.jpg" alt="트랜드 리포트">
+                <strong>트랜드 리포트</strong>
+                <p>시즌 최신 트렌드를 알려주고, 팁을 제공하며, 제품 선정을 도아주는 전문 가이드</p>
+              </a>
+            </div>
+            <div class="gnb_button">
+              <a href="#" target="_self" title="원료 도감 자세히보기">
+                <img src="./img/gnb_button11.jpg" alt="원료 도감">
+                <strong>원료 도감</strong>
+                <p>여러분이 사랑하는 제품 속 놀라운 성분들을 확인해보세요</p>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<!-- //header -->
+<!-- container -->
+<main id="container">
+  <div class="product_top">
+    <div class="product_img">
+      <img src="./img/product_main.jpg" alt="에스티로더 유스파워크림">
+    </div>
+    <div class="product_info">
+      <div class="item_ctg_name">스킨케어 > 로션/크림</div>
+      <div class="item_name_eng">Revitalizing Supreme + </div>
+      <div class="item_name">리바이탈라이징 수프림 플러스 유스 파워 크림</div>
+      <div class="item_detail">
+        깊은 보습감으로 피부 본연의 힘을 강화시켜 주어 속부터 탄탄하게 차오르는 피부<br />
+        단 3주 안에 경험하는 빠른 탄력 케어.3가지 동안 포인트에 리프팅 효과를 경험하세요.<br />
+        <a class="show_detail" href="#product_page">자세히보기</a>
+      </div>
+      <div class="item_price"></div>
+      <div class="item_detail_size">
+        <ul>
+          <li>
+            <a href="#">
+              <span><img src="./img/product_main_35ml.jpg" alt="35ml"></span>
+              <dl>
+                <dt>30ml</dt>
+                <dd>111,000원</dd>
+              </dl>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="./img/product_main_50ml.jpg" alt="50ml"></span>
+              <dl>
+                <dt>50ml</dt>
+                <dd>165,000원</dd>
+              </dl>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><img src="./img/product_main_75ml.jpg" alt="75ml"></span>
+              <dl>
+                <dt>75ml</dt>
+                <dd>199,000원</dd>
+              </dl>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="detail_btn_box">장바구에 담기</div>
+      <div class="detail_btn_box">찜하기</div>
+    </div>
+  </div>
+  <div class="product_bottom">
+    <img src="./img/product_bottom/product_bottom_main.jpg" alt="에스티로더 유스파워크림 상세페이지">
+  </div>
+</main>
+<!-- //container -->
+<footer id="footer">
+  <div class="footer_top">
+    <ul>
+      <li><a href="#">브랜드스토리</a>
+        <ul>
+          <li><a href="#">창립자 스토리</a></li>
+          <li><a href="#">채용정보</a></li>
+          <li><a href="#">회사정보</a></li>
+        </ul>
+      </li>
+      <li><a href="#">고객문의</a>
+        <ul>
+          <li><a href="#">주문조회</a></li>
+          <li><a href="#">이메일문의</a></li>
+          <li><a href="#">고객관리지원팀</a></li>
+          <li><a href="#">(02-1234-1234)</a></li>
+        </ul>
+      </li>
+      <li><a href="#">고객센터</a>
+        <ul>
+          <li><a href="#">반품 및 교환</a></li>
+          <li><a href="#">이용안내</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">배송정보</a></li>
+        </ul>
+      </li>
+      <li><a href="#">에스티로더</a>
+        <ul>
+          <li><a href="#"><iconify-icon icon="ic:outline-place"></iconify-icon>매장찾기</a></li>
+          <li>
+            <dl class="sns">
+              <dd><a href="#" target="_blank" title="페이스북 바로가기"><iconify-icon icon="la:facebook"></iconify-icon></a></dd>
+              <dd><a href="#" target="_blank" title="유튜브 바로가기"><iconify-icon icon="ph:youtube-logo"></iconify-icon></a></dd>
+              <dd><a href="#" target="_blank" title="인스타그램 바로가기"><iconify-icon icon="iconoir:instagram"></iconify-icon></a></dd>
+            </dl>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="footer_bottom">
+    <ul>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><a href="#">이용약관</a></li>    
+    </ul>
+    <address>
+      <span>이엘씨에이한국(유)</span>
+      <span>대표 Teng, Hsiao-Hua</span>
+      <span>서울시 강남구 강남대로 382(역삼동) 메리츠타워 9층, 06232.</span>
+      <span>사업자등록번호 211-81-71889</span>
+    </address>
+    <ul>
+      <li>고객관리지원팀 02-1234-1234</li>
+      <li>eah1202@naver.com</li>
+      <li>호스팅서비스사업자 : (주)엘지유플러스</li>
+      <li>통신판매업신고 : 강남 15737호</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
