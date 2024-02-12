@@ -1,4 +1,8 @@
 /* main.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+/* font-family: 'Noto Serif KR', serif; */
+
+/* main.css */
 body{position:relative;width:100%;font-family:Helvetica,Apple SD Gothic Neo,Arial,Malgun Gothic,sans-serif;font-size:13px;color:#333;}
 a{text-decoration:none;color:#333;}
 #skipNavi{position:absolute;left:0;top:0;width:0;height:0;font-size:0;line-height:0;text-indent:-9999px;overflow:hidden;visibility:hidden;}
